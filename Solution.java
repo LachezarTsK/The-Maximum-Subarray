@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Time complexity of the solution: O(n).
  */
-public class StreamlinedSolution {
+public class Solution {
 	/**
 	 * An arrays of two elements, where:
 	 * 
