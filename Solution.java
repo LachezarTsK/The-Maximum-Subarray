@@ -30,7 +30,7 @@ public class Solution {
 
 	/**
 	 * @param inputArray.
-	 * @return array maxSubarray_maxSubsequence
+	 * @return array "maxSubarray_maxSubsequence".
 	 */
 	private static int[] maxSubarray(int[] elements) {
 		maxSubarray_maxSubsequence = new int[2];
@@ -123,8 +123,7 @@ public class Solution {
 	 * 
 	 *         If all elements are non-positive, calculates the maximum
 	 *         subarray/subsequence and stores the results in a static instance
-	 *         variable, named "maxSubarray_maxSubsequence", consisting of an array
-	 *         of integers.
+	 *         variable, array "maxSubarray_maxSubsequence".
 	 */
 	private static int[] findIndexOfFirstAndLastPositive_ifAllNonPositiveThenGetMax(int[] elements) {
 		int index = 0;
